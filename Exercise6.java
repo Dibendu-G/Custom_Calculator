@@ -28,7 +28,7 @@ class MaxInputExceptions extends Exception{
 class MaxMultiExceptions extends Exception{
     @Override
     public String getMessage() {
-        return "Input cant be greater than 7000 while multiplying";
+        return "Input can't be greater than 7000 while multiplying";
     }
 }
 class Calculator {
@@ -85,7 +85,7 @@ public class Exercise6 {
         //        Ignore This it's Just a Header
 
         System.out.println("======================================");
-        System.out.println("   WELCOME TO GUESS THE NUMBER GAME   ");
+        System.out.println("          CUSTOM CALCULATOR           ");
         System.out.println("======================================");
 
 
